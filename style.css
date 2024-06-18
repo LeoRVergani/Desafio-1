@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin: 10px;
+    padding: 20px;
+    width: 315px;
+    border-radius: 16px;
+    background-color: #f0f0f0;
+    border: green solid 1px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    gap: 5px;
+    
+    
+}
+
+#agendamento {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+button {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: blue;
+    color: azure;
+}
